@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(.//Assets/Main_photo.png);
+}
+
+.header__buttons {
+    display: flex;
+}
+
+.header__button {
+    margin: 0 1rem;
+    color: #FFF;
+    font-size: 24px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header__button a {
+    text-decoration: none;
+}
+
+.header__logo {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.hero {
+    background-image: url(.//Assets/Main_photo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    text-decoration: none;
+    font: white;
+}
