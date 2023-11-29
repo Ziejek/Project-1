@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@500&display=swap');
 
 body {
     margin: 0;
     padding: 0;
     width: 100%;
     background-color: black;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
@@ -92,15 +93,17 @@ a {
     font-size: 105px;
     text-align: center;
     font-family: 'Belanosima', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     line-height: 120px;
+    max-width: 881px;
+    padding-top: 8rem;
 }
 
 .hero__text {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 400;
     text-align: center;
     line-height: normal;
+    padding: 2rem 0;
 }
 
 .hero__buttons {
@@ -138,14 +141,72 @@ a {
     background: #EAEAEA;
 }
 
+.about-us__box {
+    max-width: 1300px;
+    width: 100%;
+}
+
 .about-us__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.about-us__title {
+    
+}
+
+.about-us__text {
+    color: #222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.h2 {
+    color: #0540F2;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-us__photo {
+    width: 530px;
+    height: 651px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.about-us__photo--ratio-1x1 {
+    width: 433px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.about-us__main-text {
+    color: #222;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-us__main-imgs {
     display: flex;
     flex-direction: row;
 }
 
-.about-us__title {
-    font-family: 'Belanosima', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    font-size: 64px;
+.about-us__main {
+    display: flex;
+    flex-direction: row;
 }
