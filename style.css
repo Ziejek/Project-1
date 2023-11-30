@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@600&display=swap');
 
 body {
     margin: 0;
@@ -138,6 +138,7 @@ a {
     justify-content: center;
     align-items: center;
     padding-top: 170px;   
+    padding-bottom: 170px;
     background: #EAEAEA;
 }
 
@@ -150,11 +151,8 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding-bottom: 40px;
-}
-
-.about-us__title {
-    
 }
 
 .about-us__text {
@@ -181,6 +179,7 @@ a {
     border-radius: 25px;
     overflow: hidden;
     object-fit: cover;
+    margin-right: 74px;
 }
 
 .about-us__photo--ratio-1x1 {
@@ -190,11 +189,12 @@ a {
     border-radius: 25px;
     overflow: hidden;
     object-fit: cover;
+    margin-bottom: 40px;
 }
 
 .about-us__main-text {
     color: #222;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -204,9 +204,76 @@ a {
 .about-us__main-imgs {
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .about-us__main {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-us__main-mid {
+    width: 433px;
+}
+
+.about-us__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 184px;
+    height: 133px;
+    border-radius: 25px;
+}
+
+.about-us__item-mid {
+    position: absolute;
+    top: 179px;
+    left: 473px;
+    width: 177px;
+    height: 168px;
+}
+
+.about-us__button {
+    margin-top: 69px;
+}
+
+.about-us__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 78px;
+}
+
+.about-us__item-number {
+    color: #0540F2;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Belanosima', sans-serif;
+    line-height: 40px;
+}
+
+.about-us__item-text {
+    color: #222;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 269px;
+    height: 48px;
+    border-radius: 60px;
+    background: #0540F2;
+    font-size: 24px;
+    font-family: 'Belanosima', sans-serif;
 }
