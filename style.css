@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Montserrat:wght@500&display=swap');
 
 body {
     margin: 0;
@@ -660,31 +660,31 @@ a {
 .footer {
     display: flex;
     justify-content: center;
+    background: #0540F2;
 }
 
 .footer__box {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 4fr 8fr;
     gap: 10px;
     max-width: 1300px;
     width: 100%;
-    background: #EAEAEA;
     padding: 0 70px;
     padding-bottom: 70px;
+    padding-top: 100px;
 }
 
 .footer__heading {
-    display: grid;
-    grid-column: 1 /5;
+    grid-column: 1 /2;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__logo {
     color: #FFF;
     font-family: 'Belanosima', sans-serif;
     font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    padding-bottom: 35px;
 }
 
 .footer__text {
@@ -697,6 +697,29 @@ a {
 }
 
 .footer__item-box {
-    
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+}
 
+.footer__item-title {
+    color: #FFF;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+.footer__item-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__item-list-link {
+    padding-bottom: 24px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
